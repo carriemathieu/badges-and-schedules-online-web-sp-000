@@ -16,7 +16,7 @@ def assign_rooms(speakers_list)
 #returns "Hello, #{name}! You'll be assigned to room #{room}"
 #each_with_index - access array by index number
 # return value of each is original array, will need to store assignment strings
-#end
+end
 
 #def printer
 # output results of batch_badge_creater
