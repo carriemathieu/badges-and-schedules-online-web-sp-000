@@ -4,12 +4,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  #badge_messages = []
+  badge_messages = []
   names.each do |name|
-    #badge_messages << 
-    "Hello, my name is #{name}."
+    badge_messages << "Hello, my name is #{name}."
   end
-  #return badge_messages
+  return badge_messages
 end
 
 #assign_rooms(speakers_list)
