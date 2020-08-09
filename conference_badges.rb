@@ -11,7 +11,7 @@ def batch_badge_creator(names)
   return badge_messages
 end
 
-#def assign_rooms(speakers_list)
+def assign_rooms(speakers_list)
 #assugns each speaker to rooms 1-7 (one per room)
 #returns "Hello, #{name}! You'll be assigned to room #{room}"
 #each_with_index - access array by index number
