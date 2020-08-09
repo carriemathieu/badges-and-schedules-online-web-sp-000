@@ -30,5 +30,5 @@ end
 #def printer
 # output results of batch_badge_creater
 # assign_rooms 
-  #will need to iterate over array and "puts" out each
+  #will need to iterate over array and "puts" out each**
 #end
