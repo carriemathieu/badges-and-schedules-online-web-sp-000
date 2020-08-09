@@ -11,10 +11,10 @@ def batch_badge_creator(names)
   return badge_messages
 end
 
-def assign_rooms(name)
+def assign_rooms(attendees)
   room_assignments = []
   room = 1
-  attendees.each do |assignment|
+  attendees.each do |name|
     room_assignments.unshift("Hello #{name}! You'll be assigned to room #{room}!")
     room += 1
   end
