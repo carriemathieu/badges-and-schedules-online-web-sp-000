@@ -23,7 +23,6 @@ end
 
 def printer
   puts batch_badge_creater
-  rooms = []
   assign_rooms.each do |room|
-  #will need to iterate over array and "puts" out each**
+  
 end
